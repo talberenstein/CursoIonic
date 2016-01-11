@@ -1,0 +1,9 @@
+       <div class="padding text-center">
+          <h2>Valora la aplicación</h2>
+          <div>
+            <a href="javascript:" ng-repeat="r in ratingArr" class="padding" style="text-decoration: none;">
+              <i class="icon {{r.icon}}" ng-click="setRating(r.value)"></i>
+            </a>
+          </div>
+          <button ui-sref="login" class="button button-block button-clam">Cerrar Sesión</button>
+        </div>
